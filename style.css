@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(68, 67, 67);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.name {
+    font-size: 2em;
+    margin:#ffffff ;
+    color:white;
+}
+.location {
+    color: #ffffff;
+    margin: 5px 0;
+}
+.description {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color:#ffffff;
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: rgb(125, 121, 121);
+    color: rgb(250, 249, 249);
+    padding: 20px 150px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+.buttons a:hover {
+    background-color: #231e1e;
+}
